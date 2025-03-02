@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.SVGPath?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seamline.controllers.MainController">
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="Open Design" onAction="#onOpenFile"/>
+            </Menu>
+        </MenuBar>
+    </top>
+    <center>
+        <StackPane fx:id="designContainer">
+            <Label text="Load an SVG file to view it here."/>
+        </StackPane>
+    </center>
+</BorderPane>
