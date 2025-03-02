@@ -16,6 +16,7 @@ Seamline is a lightweight garment design tool built with JavaFX. It allows tailo
 
 ### Clone and Run
 ```sh
-git clone httpsgithub.comyourusernameseamline.git
+git clone https://github.com/chethan-kumar-anand/seamline
 cd seamline
-mvn javafxrun
+mvn javafx:run
+```
