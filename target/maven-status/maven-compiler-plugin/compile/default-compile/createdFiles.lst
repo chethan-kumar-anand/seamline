@@ -1,1 +1,2 @@
-com\seamline\MainController.class
+com\seamline\controllers\MainController.class
+com\seamline\SeamlineLauncher.class
